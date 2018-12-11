@@ -1,0 +1,22 @@
+{
+    "name": "webpack-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.vue",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode production"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^4.27.1",
+        "webpack-cli": "^3.1.2"
+    },
+    "dependencies": {
+        "style-loader": "^0.23.1",
+        "vue": "^2.5.20",
+        "vue-loader": "^15.4.2",
+        "vue-template-compiler": "^2.5.20"
+    }
+}
